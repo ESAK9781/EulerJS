@@ -1,5 +1,5 @@
 
-
+module.exports.run = () => {
 // console.log(JSON.stringify(primeFactor(345873), null, 2));
 
 let allFactors = [];
@@ -68,7 +68,7 @@ function primeFactor(n){
 
 
 
-
+}
 
 
 

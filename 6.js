@@ -1,5 +1,5 @@
 
-
+module.exports.run = () => {
 let sum = 0;
 let squareSum = 0;
 
@@ -13,7 +13,7 @@ console.log(sum - squareSum);
 
 
 
-
+}
 
 
 

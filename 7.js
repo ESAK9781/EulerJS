@@ -1,4 +1,4 @@
-
+module.exports.run = () => {
 console.log(sieveOfEratosthenes(1000000)[10001 - 1]);
 
 function sieveOfEratosthenes(n){
@@ -9,7 +9,7 @@ function sieveOfEratosthenes(n){
     } else {
       nums.push(undefined);
     }
-    
+
   }
 
   let div = 2;
@@ -37,7 +37,7 @@ function sieveOfEratosthenes(n){
 
 
 
-
+}
 
 
 
